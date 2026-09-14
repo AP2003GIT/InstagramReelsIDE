@@ -1,33 +1,3 @@
-git clone https://github.com/AP2003GIT/InstagramReelsIDE.git
-cd InstagramReelsIDE
-```
-
-Create a virtual environment:
-
-```powershell
-python -m venv .venv
-```
-
-Install CodeReels and its dependencies using the virtual environment's interpreter:
-
-```powershell
-.\.venv\Scripts\python.exe -m pip install --upgrade pip
-.\.venv\Scripts\python.exe -m pip install -e .
-```
-
-## Running
-
-Run the Python module:
-
-```powershell
-.\.venv\Scripts\python.exe -m codereels
-```
-
-Alternatively, after activating the virtual environment, use the installed command:
-
-```powershell
-codereels
-```
 
 Instagram opens inside the CodeReels window. Sign in on the Instagram page itself; CodeReels never receives the password directly.
 
